@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SmartHouse.Interfaces;
 
 namespace SmartHouse.Devices
 {
@@ -32,5 +33,7 @@ namespace SmartHouse.Devices
                 Console.WriteLine("Выключенно");
             }
         }
+        
+
     }
 }
